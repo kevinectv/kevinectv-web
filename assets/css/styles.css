@@ -1,0 +1,103 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Smart Agency Template v1.0.0 (https://themesbootstrap.com.mx/templates/smart-agenct-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/smart-agency/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #0000;
+    letter-spacing: .06em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bg-light {background-color: #ffffff !important;}
+
+h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+.margintop-xs { margin-top: 15px; }
+.margintop-sm { margin-top: 30px; }
+.margintop-lg { margin-top: 60px; }
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 2px solid #ffffff;
+}
+.navbar{
+    min-height: 80px;
+    box-shadow: 0 0 5px rgb(0,0,0, .2);
+}
+
+.logo{
+    min-width: 140px;
+    max-width: 160px;
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus{outline: none;}
+
+/* //////////////
+   Hero
+//////////////*/
+
+#hero {
+    background-image: url(../../assets/images/SCREEN.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 50px ;
+    min-width: 160px;
+}
+
+
+.btn{
+    background-color: firebrick;
+    color: #ffffff !important;
+    border: 1px solid rgb(15, 14, 14);
+}
+
+
+
+  
+
+  .full-footer{
+      background-color: #000000;
+    position: relative;
+  }
