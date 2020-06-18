@@ -11,14 +11,14 @@ html {
 }
 
 body{
-    font-family: 'Sriracha', cursive;
+  font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.829);
     letter-spacing: .06em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 .bg-light {background-color: #ffffff !important;}
@@ -361,8 +361,96 @@ color: #dd4b39;
 
 }
 
+/* //////////////
+    footer
+//////////////*/
+.container-footer{
+  width: 100%;
+  padding: 40px 0;
+  background: #111;
+  margin-top: 40px;
+}
+
+.container-footer footer{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-footer footer .logo-footer{
+  text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+  width: 200px;
+}
+
+.container-footer footer .redes-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+  font-size: 20px;
+  margin: 20px;
+  background: #1a1a1a;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #ebeef8;
+}
+
+footer .redes-footer .fa-youtube:hover{
+  background: #c00;
+  color: #fff;
+}
+
+footer .redes-footer .fa-twitter:hover{
+  background: #55acee;
+  color: #fff;
+}
+
+footer .redes-footer .fa-instagram:hover{
+  background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8 );
+  color: #fff;
+}
+
+footer .redes-footer .fa-github:hover{
+  background: #3e3e3f;
+  color: #fff;
+}
+
+.container-footer footer hr{
+  margin-top: 20px;
+  border: none;
+  height: 2px;
+  background: #333;
+}
+
+.container-footer h4{
+  text-align: center;
+  margin-top: 40px;
+  color: #eee;
+  font-weight: 500;
+}
+
+
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
 .full-footer{
-    background-color: #000000;
+    background-color: #111;
   position: relative;
 }
 
