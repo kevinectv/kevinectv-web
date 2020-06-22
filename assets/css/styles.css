@@ -147,7 +147,7 @@ section { padding: 120px 0; }
 .btn-danger {
     background-color: firebrick;
     color: #ffffff !important;
-    border: 1px solid rgb(15, 14, 14);
+    border: 1px solid firebrick;
 }
 
 
@@ -413,6 +413,11 @@ footer .redes-footer .fa-twitter:hover{
   color: #fff;
 }
 
+footer .redes-footer .fa-discord:hover{
+  background: #7289da;
+  color: #fff;
+}
+
 footer .redes-footer .fa-instagram:hover{
   background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8 );
   color: #fff;
@@ -452,6 +457,45 @@ footer .redes-footer .fa-github:hover{
 .full-footer{
     background-color: #111;
   position: relative;
+}
+
+/* //////////////
+   Testimonial
+//////////////*/
+
+.carousel {
+  min-height: 240px;
+  padding: 40px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.carousel-item p {
+  font-size: 26px;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.carousel-control-next, .carousel-control-prev { 
+  color: #ffffff;
+  opacity: 1;
+  width: 5%;
+}
+
+.caotrol-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.control-button {
+  background-color: #1a1a1a;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #1a1a1a;
+  border-radius: 50px;
+  font-size: 20px;
 }
 
 /* //////////////
