@@ -171,6 +171,13 @@ small { font-weight: 300; }
     text-align: center;
   }
 
+window.intercomSettings
+
+// Add this to the window.intercomSettings object in your code:
+window.intercomSettings = {
+  // add your attributes here
+}
+
 /*.....THE TEAM......*/
 
 b {
