@@ -12404,3 +12404,42 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media screen and (max-width: 1220px) {
+
+  header .logo {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  header .logo i {
+    color: #8b0e12;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 3px;
+    transition: all 0.3s ease 0s;
+  }
+  #burger-menu {
+    width: 27px;
+    height: 27px;
+    margin: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Carter One', cursive;
+  z-index: 999;
+  padding: 0px 14px;
+  transition: all 300ms ease 0s;
+ }
+}
+
