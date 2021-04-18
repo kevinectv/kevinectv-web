@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  /*IMPORTANTE*/
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background-color:#5e2760;
+  background: url("img/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+audio{display: none;}
+.adookia{
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: 9999;
+}

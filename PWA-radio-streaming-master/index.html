@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <title>Radio Streaming</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+<meta name="description" content="Bienvenid@s a la web PWA proporcionada por adookia para empresas ... :)">
+
+<meta name="theme-color" content="#5e2760">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="./img/logo.png">
+<link rel="apple-touch-startup-image" href="./img/logo.png">
+<link rel="manifest" href="./manifest.json">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s6 ">
+          <figure>
+            <img src="./img/logo.png" width="100px" alt="Radio Streaming El color de la música">
+          </figure>
+        </div>
+      </div>
+    <div class="row">
+          <div class="carousel  carousel-slider">
+            <a class="carousel-item" href="#"><img src="./img/01.jpeg" alt="publicidad"></a>
+            <a class="carousel-item" href="#"><img src="./img/02.jpeg" alt="publicidad"></a>
+            <a class="carousel-item" href="#"><img src="./img/03.jpeg" alt="publicidad"></a>
+          </div>
+    </div>
+  </div>
+    <audio id="player" controls autoplay>
+      <source src="http://stream.zeno.fm/eua53eq57p8uv" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <div class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large pulse red waves-effect waves-purple">
+        <i class="large material-icons">radio</i>
+      </a>
+      <ul>
+        <li class="waves-effect waves-light"><button class="btn btn-flat white-text" onclick="document.getElementById('player').play()"><i class="large material-icons">play_arrow</i></button></li>
+        <li class="waves-effect waves-light"><button class="btn btn-flat white-text" onclick="document.getElementById('player').pause()"><i class="medium material-icons">pause</i></button></li>
+        <li class="waves-effect waves-light"><button class="btn btn-flat white-text" onclick="document.getElementById('player').volume-=0.2"><i class="medium material-icons">volume_down</i></button></li>
+        <li class="waves-effect waves-light"><button class="btn btn-flat" onclick="document.getElementById('player').volume+=0.2"><i class="medium material-icons white-text">volume_up</i></button></li>
+      </ul>
+    </div>
+    
+      
+    <div class="adookia">
+            <a href="https://adookia.com" target="_blank"><img class="responsive-img" src="img/etiqueta.svg" alt="adookia.com"></a>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
