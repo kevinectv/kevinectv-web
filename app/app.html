@@ -1,0 +1,64 @@
+<head>
+        <title>R&aacute;dio Player</title>
+ <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/style/font-awsome/css/all.css">
+  <link rel="stylesheet" href="dist/style/main.min.css">
+  <script src="dist/index.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+      
+</head>
+
+
+
+<div id="live-preview">
+<div id="player"></div>
+</div>
+
+
+<script>
+  var player = new AudioPlayer({
+      divId: "player",
+      layout : "phone",
+     audios: [
+      {
+        title: "Urbana Radio FM",
+        image: 'assets/logo.png',
+		    artist: "R&aacute;dio Record",
+        album: 'Online Radio',
+        source: 'http://stream.zeno.fm/eua53eq57p8uv'
+      },
+      {
+        title: "Studio Bala",
+        artist: "R&aacute;dio Record",
+        image: 'assets/bala.jpg',
+        album: 'M&uacute;sicas 24 horas sem parar',
+        source:'http://95.154.228.120:8707/;'
+      },
+      {
+        title: "Russian Mix",
+        artist: "Unknown",
+        image: 'assets/3.jpg',
+        album: 'M&uacute;sicas 24 horas sem parar',
+        source:'http://95.154.228.120:8707/;'
+      },
+      {
+        title: "Kiss FM",
+        artist: "Unknown",
+        image: 'assets/4.jpg',
+        album: 'Online Radio',
+        source:'http://online.kissfm.ua/KissFM_Live'
+      },
+	   {
+        title: "Roses Imanbek remix",
+        artist: "Saint Jhn",
+        image: 'assets/5.jpg',
+        album: 'Bonus',
+        source:'assets/saint.mp3'
+      }
+    ],
+    });
+  </script>

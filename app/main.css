@@ -1,0 +1,116 @@
+html>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+  }
+  body {
+    background: rgb(247, 247, 247);
+  }
+  pre {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  #definition {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #definition>.text {
+    color: rgb(7, 7, 7);
+    line-height: 1.8;
+  }
+
+  #live-preview {
+    position: relative;
+    background: url('assets/juy1.png') repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .params {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+  }
+
+  .params>* {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+  }
+
+  .params>*>label {
+    margin-right: 1rem;
+  }
+
+  #player {
+    margin : 1rem 0;
+    box-shadow: 0 0 .5rem .5rem rgba(43, 43, 43, 0.349);
+  }
+
+  h2 {
+    margin: 3rem 0;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgb(121, 121, 121);
+  }
+  h3 {
+    margin: 2rem 0;
+  }
+
+  .main-container> * {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .features {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  ol>li {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .var {
+    color: rgb(32, 154, 202);
+    font-weight: 600;
+  }
+
+  .key {
+    color: orange;
+  }
+
+  .const {
+    color: green;
+  }
+
+  .comment {
+    color: rgb(102, 2, 2);
+    font-weight: 600;
+  }
+  .footer {
+    margin: 3rem 0;
+    font-weight: thin;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .usage {
+    margin-top: 5rem;
+  }
