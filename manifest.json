@@ -1,7 +1,7 @@
 {
-  "name": "#kevinectv",
-  "short_name": "#kevinectv",
-  "description": "Bienvenid@s a #kevinectv, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo. Recuerda... mente sana en cuerpo sano :)",
+  "name": "kevinectv",
+  "short_name": "kevinectv",
+  "description": "Bienvenid@s a kevinectv, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo. Recuerda... mente sana en cuerpo sano :)",
   "background_color": "#2b2b2b",
   "theme_color": "#910000",
   "orientation": "portrait",
